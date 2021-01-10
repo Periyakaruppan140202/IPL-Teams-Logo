@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Dream 11 IPL 2020</title>
+</head>
+<body>
+<script>
+  function team(a) {
+    var pic;
+
+    document.getElementById('ipl').style.width="250px";
+    document.getElementById('ipl').style.height="250px";
+
+    if(a==1) {
+      pic="https://lh3.googleusercontent.com/7oK0Ufjxh8REjOCYwOQjcpYyaeMdTknUgx7Lp8ssQIg1kl3ZyBIQe8euHfBWJ8zK_fc1SbN8W1710q4UhETYY7SZ";
+    }
+    else if(a==2) {
+      pic="https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Royal_Challengers_Bangalore_2020.svg/250px-Royal_Challengers_Bangalore_2020.svg.png";
+    }
+    else if(a==3) {
+      pic="https://www.mumbaiindians.com/static-assets/images/cssimages/logo.png";
+    }
+    else if(a==4) {
+      pic="https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Kolkata_Knight_Riders_Logo.svg/230px-Kolkata_Knight_Riders_Logo.svg.png";
+    }
+    else if(a==5) {
+      pic="https://www.searchpng.com/wp-content/uploads/2019/12/delhi-capitals-logo-PNG.jpg";
+    }
+    else if(a==6) {
+      pic="https://lh3.googleusercontent.com/DLZyYvAeND4XualoY10jkBcTRCfGiJCgDmyQWDuIMSoDEz4vGqUwPxZJ3OJqT6ZBlnHJkrZAPuvoSsR5O0BWHxCk";
+    }
+    else if(a==7) {
+      pic="https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/Kings_XI_Punjab_logo.svg/1200px-Kings_XI_Punjab_logo.svg.png";
+    }
+    else if(a==8) {
+      pic="https://lh3.googleusercontent.com/bUWqs3fYSoaWQgjvaNM6dgHTMCGUCPYZSGIbNa6HrggjNcnnz-CGEGxAjf8LJf80yB85V8BPMCiUtfizb7iW_-8DIg";
+    }
+    else if(a==9) {
+      pic="https://upload.wikimedia.org/wikipedia/en/9/9a/Rising_Pune_Supergiant.png";
+      document.getElementById('ipl').style.width="500px";
+      document.getElementById('ipl').style.height="200px";
+    }
+    else if(a==10) {
+      pic="https://upload.wikimedia.org/wikipedia/en/c/c4/Gujarat_Lions.png";
+    }
+    else if(a==11) {
+      pic="https://upload.wikimedia.org/wikipedia/en/4/4a/Pune_Warriors_India_IPL_Logo.png";
+    }
+    else if(a==12) {
+      pic="https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/HyderabadDeccanChargers.png/200px-HyderabadDeccanChargers.png";
+    }
+
+    document.getElementById('ipl').src=pic;
+
+  }
+</script>
+<img style="float:right;" id="ipl" src="https://resources.platform.iplt20.com/photo-resources/2020/08/20/8ab72598-0ed5-411d-9b91-7fc371ae2812/IPL_v1.jpg?width=2000&height=1333" width="250px" height="250px">
+<button onclick="team(1)">Chennai Super Kings</button><br>
+<button onclick="team(2)">Royal Challengers Bangalore</button><br>
+<button onclick="team(3)">Mumbai Indians</button><br>
+<button onclick="team(4)">Kolkata Knight Riders</button><br>
+<button onclick="team(5)">Delhi Capitals</button><br>
+<button onclick="team(6)">Sunrisers Hyderabad</button><br>
+<button onclick="team(7)">Kings XI Punjab</button><br>
+<button onclick="team(8)">Rajasthan Royals</button><br>
+<button onclick="team(9)">Rising Pune Supergiant</button><br>
+<button onclick="team(10)">Gujarat Lions</button><br>
+<button onclick="team(11)">Pune Warriors India</button><br>
+<button onclick="team(12)">Deccan Chargers</button><br>
+
+</body>
+</html>
